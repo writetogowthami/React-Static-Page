@@ -1,0 +1,66 @@
+.App {display: flex;flex-flow: row wrap;min-height:100%;width: 100%;float: left;}
+.App-alignC {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/* CSS - Browser Reset */
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+  margin: 0;	padding: 0;	border: 0;font-family: Verdana;vertical-align: baseline;
+}
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+  font-size: 99%;
+}*/
+header {width: 100%;float: left;}
+.heading1{font-size:2em;color:#A3A3E6;padding: 0 0 20px}
+.heading2{color:#A3A3E6;}
+.rightAlign{padding: 0 0 20px; text-align: right;}
+/* HTML5 display reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+.clear{clear: both;}
+p{text-align:justify}
+a:link, a:visited {color: #6C6C9E;text-decoration: none;}
+a:link:active, a:visited:active {color: #6C6C9E;}
+a:hover{color: #818181;text-decoration: none;cursor: pointer;}
+footer{background: #aaa;color: white;clear: both;text-align: center;width: 100%;float: left;}
+footer span{ padding: 8px;display: inline-block;font-size: 0.8em;}
+.navigation { background:#EBEBF7; font-weight: bold; font-size: 1.1em}
+nav.navigation h3{margin: 15px 10px 15px 50px;}
+div.container {overflow: auto;overflow-x: hidden;}
+.navigation { text-align:left; flex:1 auto; min-height: 77.1vmin}
+.articl { flex:2 0; order:1; margin: 0 0 0 20px; padding: 0}
+article.articl .academicInfo, article.articl .myInfo{margin: 0 0 15px;text-indent:60px; color: #0E5B75; font-family:"Comic Sans MS",cursive,sans-serif}
+.asid{flex:1 0; order:2;}
+#sidenav{position: relative; align-content: right}
+footer {position: absolute; right: 0;bottom: 0;left: 0;}
+.asid #sidenav a:hover{position:absolute; right: 0px; cursor: pointer;/*cursor: url("https://www.w3schools.com/cssref/myBall.cur"), auto;*/}
+.asid #sidenav a{display: block;position: absolute;right: -45px;transition: 0.4s;padding: 15px;width: 200px;text-decoration: none;font-size: 20px;color: white;border-radius: 5px 0 0 5px;}
+#sidenav > :first-child{top: 20px;background-color: #4CAF50; }
+#sidenav > :nth-child(2) {top: 100px;background-color: #2196F3;}
+#sidenav > :nth-child(3) {top: 180px;background-color: #f44336;}
+#sidenav > :nth-child(4) {top: 260px;background-color: #555}
+#sidenav > :last-child {top: 340px;background-color: #ff9800}
+
