@@ -34,13 +34,13 @@ footer span{ padding: 8px;display: inline-block;font-size: 0.8em;}
   .rightAlign{padding: 0 0 20px; text-align: right;}
   .navigation { background:#EBEBF7; font-weight: bold; font-size: 1.1em}
   nav.navigation h3{margin: 15px 10px 15px 50px;}
-  div.container {overflow: auto;overflow-x: hidden;}
+  div.container {overflow: auto;overflow-x: hidden;overflow-y: hidden;}
   .navigation { text-align:left; flex:1 auto; min-height: 77.1vmin}
   .articl { flex:2 0; order:1; margin: 0 0 0 20px; padding: 0;}
   article.articl .academicInfo, article.articl .myInfo{margin: 0 0 15px;text-indent:60px; color: #0E5B75; font-family:"Comic Sans MS",cursive,sans-serif}
-  .asid{flex:1 0; order:2;}
+  .asid{flex:1 0; order:2; height: 500px}
   #sidenav{position: relative; align-content: right}
-  footer {position: absolute; right: 0;bottom: 0;left: 0;}
+  footer {position: fixed; right: 0;bottom: 0;left: 0;}
   .asid #sidenav a:hover{position:absolute; right: 0px; cursor: pointer;/*cursor: url("https://www.w3schools.com/cssref/myBall.cur"), auto;*/}
   .asid #sidenav a{display: block;position: absolute;right: -45px;transition: 0.4s;padding: 15px;width: 200px;text-decoration: none;font-size: 20px;color: white;border-radius: 5px 0 0 5px;}
   #sidenav > :first-child{top: 20px;background-color: #4CAF50; }
